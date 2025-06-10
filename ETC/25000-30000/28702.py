@@ -8,7 +8,7 @@ for _ in range(3):
 
 ans = 0
 for i in range(3):
-    if l[i].find('z') == -1:
+    if l[i].__find_node('z') == -1:
         ans = int(l[i]) + 3 - i
         break
 
